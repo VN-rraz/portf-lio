@@ -1,0 +1,126 @@
+@font-face {
+    font-family: 'game';
+    src: url('fonts/Game\ On_PersonalUseOnly.ttf') format('truetype');
+}
+body{
+    background-color: rgb(204, 189, 170);
+}
+header{
+    text-align: center;
+
+    background-color: rgb(160, 99, 58);
+
+    padding: 50px 0px 10px 0px;
+    margin: -21px -8px 0px -8px;
+
+    box-shadow: rgba(0, 0, 0, 0.541) 0px 5px 10px;
+}
+header >h1{
+    color: white;
+    font-size: 3.4em;
+    font-family:'game', sans-serif;
+}
+#menu > a{
+    color: white;
+    background-color: rgb(204, 189, 170);
+
+    font-size: 1.7em;
+
+    text-decoration: none;
+
+    margin: 10px;
+    padding: 0px 10px;
+
+    border-radius: 20px;
+    border: solid 3px rgb(182, 146, 122);
+
+    transition: .4s;
+}
+#menu > a:hover{
+    color: rgb(160, 99, 58);
+    background-color: rgba(255, 255, 255, 0.555);
+
+    font-size: 1.7em;
+
+    text-decoration: none;
+
+    margin: 10px;
+    padding: 0px 10px;
+
+    border-radius: 10px;
+    border: solid 3px rgb(241, 233, 227);
+}
+main{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.3em;
+
+    margin: auto;
+    padding: 10px;
+
+    max-width: 800px;
+    min-width: 320px;
+
+    text-align: justify;
+    text-indent: 30px;
+
+    background-color: whitesmoke;
+
+    border-radius: 0px 0px 25px 25px;
+
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.404);
+}
+h2{
+    font-family:'game-over', sans-serif;
+
+}
+#intro > p{
+    font-size: .8em;
+    color: rgba(128, 128, 128, 0.596);
+}
+#intro > #resumo{
+    font-size: 1.3em;
+    color: black;
+
+}
+
+#sobre > img{
+    border-radius: 20px;
+}
+
+#projetos > a{
+    display: inline-block;
+    margin: 0px 0px 10px 0px;
+    padding: 20px 30px 5px 5px;
+
+    border-radius: 10px;
+    transition: .8s;
+}
+#projetos > a:hover{
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.404);
+}
+/*
+#hobbies{
+
+}
+*/
+footer{
+    text-align: center;
+    font-size: .8em;
+    color: rgba(128, 128, 128, 0.801);
+}
+#contatos{
+    margin: 20px;
+}
+#contatos >a{
+    margin: 0px 0px 0px 0px;
+    padding: 80px 15px 10px 15px;
+    border-radius: 10px;
+
+    transition: .8s;
+}
+#contatos > a:hover{
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.404);
+}
+#contatos > a#gmail{
+    padding: 60px 15px 10px 15px;
+}
